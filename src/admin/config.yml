@@ -159,58 +159,6 @@ collections:
                 name: slate
                 widget: string
                 default: "#404040"
-              - label: CSS Colors
-                name: css-colors
-                widget: object
-                fields: []
-              - label: Body Text Color
-                name: body-text-color
-                widget: string
-                default: var(--color-light)
-              - label: Body Background Color
-                name: body-background-color
-                widget: string
-                default: var(--color-slate)
-              - label: Heading Text Color
-                name: heading-text-color
-                widget: select
-                options:
-                  - label: Primary
-                    value: var(--color-primary)
-                  - label: Primary Shade
-                    value: var(--color-primary-shade)
-                  - label: Primary Glare
-                    value: var(--color-primary-glare)
-                  - label: Highlight
-                    value: var(--color-highlight)
-                  - label: Light
-                    value: var(--color-light)
-                  - label: Mid
-                    value: var(--color-mid)
-                  - label: Dark
-                    value: var(--color-dark)
-                  - label: Slate
-                    value: var(--color-slate)
-              - label: Body Text Color
-                name: body-text-color
-                widget: select
-                options:
-                  - label: Primary
-                    value: var(--color-primary)
-                  - label: Primary Shade
-                    value: var(--color-primary-shade)
-                  - label: Primary Glare
-                    value: var(--color-primary-glare)
-                  - label: Highlight
-                    value: var(--color-highlight)
-                  - label: Light
-                    value: var(--color-light)
-                  - label: Mid
-                    value: var(--color-mid)
-                  - label: Dark
-                    value: var(--color-dark)
-                  - label: Slate
-                    value: var(--color-slate)
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
