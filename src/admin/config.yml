@@ -41,9 +41,14 @@ collections:
             name: socialImage
             widget: image
             required: false
+            fields:
+              - label: Alt Text
+                name: alt
+                widget: string
           - label: Body
             name: body
             widget: markdown
+
   - name: generic_pages
     label: Generic Pages
     folder: src/pages
