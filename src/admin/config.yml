@@ -12,7 +12,7 @@ collections:
         label: Homepage
         delete: false
         file: src/index.md
-        slug: '{{slug}}'
+        slug: "{{slug}}"
         fields:
           - label: Layout
             name: layout
@@ -48,12 +48,11 @@ collections:
           - label: Body
             name: body
             widget: markdown
-
   - name: generic_pages
     label: Generic Pages
     folder: src/pages
-    slug: '{{slug}}'
-    preview_path: 'pages/{{slug}}'
+    slug: "{{slug}}"
+    preview_path: pages/{{slug}}
     create: true
     fields:
       - label: Layout
@@ -63,7 +62,7 @@ collections:
       - label: Title
         name: title
         widget: string
-      - label: 'Permalink Override (Pattern: ''/your-slug/index.html'')'
+      - label: "Permalink Override (Pattern: '/your-slug/index.html')"
         name: permalink
         widget: string
         required: false
@@ -85,8 +84,8 @@ collections:
   - name: posts
     label: Posts
     folder: src/posts
-    slug: '{{slug}}'
-    preview_path: 'posts/{{slug}}'
+    slug: "{{slug}}"
+    preview_path: posts/{{slug}}
     create: true
     fields:
       - label: Layout
@@ -157,10 +156,10 @@ collections:
             name: enableThirdPartyComments
             widget: boolean
             default: false
-          - label: 'Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)'
+          - label: "Payment Pointer (Web Monetization: https://bit.ly/2kTRI1b)"
             name: paymentPointer
             widget: string
-          - label: 'Favicon path (EG: /images/favicon.png)'
+          - label: "Favicon path (EG: /images/favicon.png)"
             name: faviconPath
             widget: string
       - label: Navigation
@@ -195,28 +194,28 @@ collections:
                 name: base
                 widget: string
                 default: 1rem
-              - label: 'Ratio: 300'
-                name: '300'
+              - label: "Ratio: 300"
+                name: "300"
                 widget: string
                 default: 0.8rem
-              - label: 'Ratio: 500'
-                name: '500'
+              - label: "Ratio: 500"
+                name: "500"
                 widget: string
                 default: 1.25rem
-              - label: 'Ratio: 600'
-                name: '600'
+              - label: "Ratio: 600"
+                name: "600"
                 widget: string
                 default: 1.56rem
-              - label: 'Ratio: 700'
-                name: '700'
+              - label: "Ratio: 700"
+                name: "700"
                 widget: string
                 default: 1.95rem
-              - label: 'Ratio: 800'
-                name: '800'
+              - label: "Ratio: 800"
+                name: "800"
                 widget: string
                 default: 2.44rem
-              - label: 'Ratio: 900'
-                name: '900'
+              - label: "Ratio: 900"
+                name: "900"
                 widget: string
                 default: 3.05rem
               - label: Max Size
@@ -230,35 +229,35 @@ collections:
               - label: Primary
                 name: primary
                 widget: string
-                default: '#173854'
+                default: "#173854"
               - label: Primary Shade (darker)
                 name: primary-shade
                 widget: string
-                default: '#102538'
+                default: "#102538"
               - label: Primary Glare (lighter)
                 name: primary-glare
                 widget: string
-                default: '#22547c'
+                default: "#22547c"
               - label: Highlight
                 name: highlight
                 widget: string
-                default: '#fedb8b'
+                default: "#fedb8b"
               - label: Light
                 name: light
                 widget: string
-                default: '#ffffff'
+                default: "#ffffff"
               - label: Mid
                 name: mid
                 widget: string
-                default: '#cccccc'
+                default: "#cccccc"
               - label: Dark
                 name: dark
                 widget: string
-                default: '#333333'
+                default: "#333333"
               - label: Slate
                 name: slate
                 widget: string
-                default: '#404040'
+                default: "#404040"
               - label: CSS Colors
                 name: css-colors
                 widget: object
@@ -315,8 +314,7 @@ collections:
             name: fonts
             widget: hidden
             default:
-              base: >-
-                "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-                Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI
-                Emoji', 'Segoe UI Symbol'"
-              serif: '"''Lora'', serif"'
+              base: "\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+                Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe
+                UI Symbol'\""
+              serif: "\"'Lora', serif\""
