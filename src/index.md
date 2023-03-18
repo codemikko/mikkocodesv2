@@ -27,9 +27,6 @@ socialImage: ""
           <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener" class="description-link text-blue-700 dark:text-neutral-500" style="border-bottom: 2px solid #61dafb;">React.js</a> and
           <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer noopener" class="description-link text-blue-700 dark:text-neutral-500" style="border-bottom: 2px solid #2196f3;">Tailwind CSS</a>.
         </p> 
-        <div class="inline-block text-sm drop-shadow-3xl shadow-orange-300/50 bg-gradient-to-r from-blue-500/[.15] ring-2 ring-orange-800/95 rounded-md p-3 -ml-6">🟢 Online </div>
-      </div>
-    </div>
   </div>
 </div>
 
