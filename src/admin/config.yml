@@ -123,42 +123,42 @@ collections:
                 name: max
                 widget: string
                 default: 4rem
-      - label: Colors
-        name: colors
-        widget: object
-        fields:
-          - label: Primary
-            name: primary
-            widget: string
-            default: "#173854"
-          - label: Primary Shade (darker)
-            name: primary-shade
-            widget: string
-            default: "#102538"
-          - label: Primary Glare (lighter)
-            name: primary-glare
-            widget: string
-            default: "#22547c"
-          - label: Highlight
-            name: highlight
-            widget: string
-            default: "#fedb8b"
-          - label: Light
-            name: light
-            widget: string
-            default: "#ECEFF4"
-          - label: Mid
-            name: mid
-            widget: string
-            default: "#E5E9F0"
-          - label: Dark
-            name: dark
-            widget: string
-            default: "#D8DEE9"
-          - label: Slate
-            name: slate
-            widget: string
-            default: "#404040"
+          - label: Colors
+            name: colors
+            widget: object
+            fields:
+              - label: Primary
+                name: primary
+                widget: string
+                default: "#173854"
+              - label: Primary Shade (darker)
+                name: primary-shade
+                widget: string
+                default: "#102538"
+              - label: Primary Glare (lighter)
+                name: primary-glare
+                widget: string
+                default: "#22547c"
+              - label: Highlight
+                name: highlight
+                widget: string
+                default: "#fedb8b"
+              - label: Light
+                name: light
+                widget: string
+                default: "#ffffff"
+              - label: Mid
+                name: mid
+                widget: string
+                default: "#cccccc"
+              - label: Dark
+                name: dark
+                widget: string
+                default: "#333333"
+              - label: Slate
+                name: slate
+                widget: string
+                default: "#404040"
           - label: "Fonts"
             name: "fonts"
             widget: "hidden"
